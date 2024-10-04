@@ -104,7 +104,7 @@ footer {
     
 }
 
-/* @keyframes fade-right {
+@keyframes fade-right {
     0% {
         transform: translateX(-300px);
         opacity: 0;
@@ -133,7 +133,7 @@ footer {
         transform: translateY(0);
         opacity: 1;
     }
-} */
+}
 
 .nav__link--primary {
     background-color: rgb(100, 21, 255);
@@ -673,7 +673,6 @@ PRICING
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    /* fix uppercase for all */
 }
 
 .price {
@@ -1376,5 +1375,10 @@ footer {
 @media (max-width: 454px) {
     .link--list {
         width: calc(100% / 3);
+    }
+
+    .plans,
+    .plans__bg--blue {
+        width: 70%;
     }
 }
