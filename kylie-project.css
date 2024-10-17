@@ -583,11 +583,23 @@ position: absolute;
       display: none;
   }
 
+  #lip-gloss {
+    background: linear-gradient(
+      120deg,
+      #f3f2f7 3%,
+      #f5acba 36.23%,
+      #f3f2f7 75.52%
+    );
+  }
+  
+
+  .container {
+    padding: 96px 24px;
+  }
+
   header {
     width: 80%;
   }
-
-  /* fix font size */
 
   .header__title,
   .section__title {
