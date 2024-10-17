@@ -587,6 +587,8 @@ position: absolute;
     width: 80%;
   }
 
+  /* fix font size */
+
   .header__title,
   .section__title {
     font-size: 50px;
