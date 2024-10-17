@@ -579,9 +579,9 @@ position: absolute;
 }
 
 @media (max-width: 530px) {
-    .icons {
-        display: none;
-    }
+  .icons {
+      display: none;
+  }
 
   header {
     width: 80%;
@@ -607,4 +607,9 @@ position: absolute;
   #upcoming {
     background-size: cover;
   }
+
+  .scroll {
+    display: none;
+  }
+
 }
