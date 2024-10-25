@@ -177,6 +177,7 @@ h1 {
 
 .search__wrapper {
     display: flex;
+    justify-content: space-between;
 }
 
 .search__title {
