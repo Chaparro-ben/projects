@@ -178,12 +178,13 @@ h1 {
 .search__wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    animation: fade-in 1200ms 400ms backwards;
 }
 
 .search__title {
     color: #882c6f;
     font-size: 30px;
-    animation: fade-in 1200ms 400ms backwards;
 }
 
 .hide-search-list {
@@ -287,7 +288,7 @@ h1 {
 }
 
 .movie {
-    margin: 12px 10px 0 0 ;
+    margin: 16px 10px 0 0 ;
 }
 
 .movie-title {
@@ -326,7 +327,7 @@ h1 {
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 805px) {
     h1,
     .header__title {
        font-size: 36px;
@@ -339,6 +340,14 @@ h1 {
     .nav__link--anchor,
     .contact-btn {
         font-size: 16px;
+    }
+
+    .search__title {
+        font-size: 27px;
+    }
+
+    .custom-select {
+        width: 200px;
     }
 }
 @media (max-width: 665px) {
@@ -376,5 +385,14 @@ h1 {
         background-size: cover;
         background-position: -20px;
         background-repeat: no-repeat;
+    }
+
+    .search__wrapper {
+        
+    }
+
+    .custom-select {
+        width: 100px;
+        height: 100px;
     }
 }
